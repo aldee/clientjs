@@ -14,10 +14,11 @@ module.exports = {
   mode: 'production',
   node: false,
   output: {
-    globalObject: 'this',
+    globalObject: 'typeof self !== "undefined" ? self : this',
     libraryTarget: 'umd',
     filename: '[name].min.js',
     path: path.resolve(__dirname, './dist'),
+    clean: true,
   },
   optimization: {
     splitChunks: false,
@@ -28,7 +29,6 @@ module.exports = {
           parse: {},
           compress: {},
           mangle: true,
-          ie8: true,
           safari10: true,
         },
         extractComments: false,

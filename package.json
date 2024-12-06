@@ -60,11 +60,11 @@
     "@commitlint/config-conventional": "^13.2.0",
     "@release-it/bumper": "^3.0.1",
     "@release-it/keep-a-changelog": "^2.3.0",
+    "babel-plugin-istanbul": "^7.0.0",
     "eslint": "^7.32.0",
     "husky": "^7.0.4",
-    "istanbul-instrumenter-loader": "^3.0.1",
     "jasmine-core": "^3.10.1",
-    "karma": "^6.3.5",
+    "karma": "6.3.16",
     "karma-chrome-launcher": "^3.1.0",
     "karma-coverage-istanbul-reporter": "^3.0.3",
     "karma-firefox-launcher": "^2.1.1",
@@ -73,18 +73,18 @@
     "karma-safari-launcher": "^1.0.0",
     "karma-sauce-launcher": "^4.3.6",
     "karma-sourcemap-loader": "^0.3.8",
-    "karma-webpack": "^4.0.2",
+    "karma-webpack": "^5.0.1",
     "lint-staged": "11.2.3",
     "release-it": "^14.11.6",
-    "terser-webpack-plugin": "^4.2.3",
-    "webpack": "^4.44.2",
-    "webpack-cli": "^4.9.1"
+    "terser-webpack-plugin": "^5.3.10",
+    "webpack": "^5.79.1",
+    "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "globalthis": "^1.0.2",
+    "globalthis": "^1.0.4",
     "inherits": "^2.0.4",
     "murmurhash-js": "^1.0.0",
-    "ua-parser-js": "^0.7.30"
+    "ua-parser-js": "^1.0.39"
   },
   "license": "Apache-2.0",
   "licenses": [
